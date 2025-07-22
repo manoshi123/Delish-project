@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" );
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  font-family: var(--font-family);
+}
+
+:root {
+  --background-color: #f7f7f7;
+  --menu-color: #242323;
+  --header: #000;
+  --content-color: #000;
+  --font-family: "Jost", sans-serif;
+  --primary: #fff;
+  --heading: 3rem;
+  --content: 1.125rem;
+  --footer_heading: #d9d9d9;
+  --footer-content: #8e8e8e;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none !important;
+}
+.clear {
+  clear: both;
+}
+/* blog css start*/
+.blog_details{
+    padding: 5rem 0;
+}
+.blog_details h6{
+font-size: 1.3rem;
+font-weight: 600;
+text-transform: uppercase;
+padding: 1.5rem 0 1rem;
+color: #CB3A1A;
+}
+.blog_details h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+    padding-bottom: .8rem;
+}
+.blog_details p{
+        color: #74787C;
+    padding-bottom: 1rem;
+}
+
+/* blog css end*/
+
+/* responsive css start */
+@media only screen and (max-width: 1200px){
+.blog_details h3 {
+    font-size: 1.5rem;
+}
+}
+@media only screen and (max-width: 992px){
+  .blog_details h6 {
+    font-size: 1rem;
+        padding: 1.5rem 0 0;
+  }
+      .blog_details h3 {
+        font-size: 1.1rem;
+        padding-bottom: .5rem;
+    }
+}
+@media only screen and (max-width: 768px){
+    .blog_details h3 {
+        font-size: 1.5rem;
+        padding-bottom: .5rem;
+    }
+        .blog_details h6 {
+        font-size: 1.2rem;
+        padding: 1.5rem 0 .8rem;
+    }
+}
+@media only screen and (max-width: 420px){
+ .blog_details h6 {
+    font-size: 1rem;
+        padding: 1.5rem 0 0;
+  }
+      .blog_details h3 {
+        font-size: 1.1rem;
+        padding-bottom: .5rem;
+    }
+    .blog_details {
+    padding: 2rem 0;
+}
+}
+/* responsive css end */

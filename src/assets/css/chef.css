@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" );
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  font-family: var(--font-family);
+}
+
+:root {
+  --background-color: #f7f7f7;
+  --menu-color: #242323;
+  --header: #000;
+  --content-color: #000;
+  --font-family: "Jost", sans-serif;
+  --primary: #fff;
+  --heading: 3rem;
+  --content: 1.125rem;
+  --footer_heading: #d9d9d9;
+  --footer-content: #8e8e8e;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none !important;
+}
+.clear {
+  clear: both;
+}
+/* menu content start */
+.chef_content h5{
+        font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #CB3A1A;
+}
+.chef_content h2{
+        font-size: 3.2rem;
+    font-weight: 700;
+    padding: 1.2rem 0;
+}
+.chef_content p{
+    color: #74787C;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+.chef_content img{
+    padding: 1.5rem 0;
+}
+.chef_content h6{
+        font-size: 1.1rem;
+    font-weight: 600;
+    color: #CB3A1A;
+}
+/* menu content end */
+
+/* responsive css start */
+@media only screen and (max-width: 992px){
+.chef_content h5 {
+    font-size: 1.5rem;
+}
+.chef_content h2 {
+    font-size: 2.1rem;
+    font-weight: 700;
+    padding: .5rem 0;
+}
+.chef_content p{
+  line-height: 1.5rem;
+}
+.chef_content img {
+    padding: 1rem 0;
+}
+}
+@media only screen and (max-width: 768px){
+.chef_content h5{
+  padding-top: 1rem;
+}
+.chef_content{
+  padding-top: 0!important;
+}
+}
+@media only screen and (max-width: 405px){
+.menu_content h2 {
+        font-size: 1.5rem;
+    }
+    .chef_box h5{
+      font-size: 1.2rem;
+    }
+        .chef_content h2 {
+        font-size: 1.8rem;
+        }
+            .chef_content h5 {
+        font-size: 1.2rem;
+    }
+}
+/* responsive css end */

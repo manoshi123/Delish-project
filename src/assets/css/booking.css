@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" );
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  font-family: var(--font-family);
+}
+
+:root {
+  --background-color: #f7f7f7;
+  --menu-color: #242323;
+  --header: #000;
+  --content-color: #000;
+  --font-family: "Jost", sans-serif;
+  --primary: #fff;
+  --heading: 3rem;
+  --content: 1.125rem;
+  --footer_heading: #d9d9d9;
+  --footer-content: #8e8e8e;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none !important;
+}
+.clear {
+  clear: both;
+}
+
+/* booking_Sec start */
+.book_form{
+    padding: 6rem 0 0;
+}
+.book_form p{
+    color: #74787C;
+}
+.reserved_sec{
+  background-color: #1A1A1A;
+  padding: 5rem 0;
+  color: #fff;
+}
+.reserved_sec h4{
+      font-size: 1.6rem;
+    padding-bottom: .7rem;
+    border-bottom: 1px solid #757575;
+}
+.reserved_sec .react-datepicker-wrapper input{
+    width: 261px;
+    height: 36px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid #727171;
+    padding: .375rem 2.25rem .375rem .75rem;
+    color: #fff;
+}
+.reserved_sec form{
+  padding-top: 1rem;
+}
+.reserved_sec form .form-label{
+  font-size: .9rem;
+  margin-bottom: .7rem;
+}
+.reserved_sec form .btn{
+  width: 100%;
+  background-color: #CB3A1A;
+    border: 1px solid #cb3a1a;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: .9rem;
+    padding: .5rem 0;
+    font-weight: 600;
+}
+.reserved_sec form .form-select{
+      --bs-form-select-bg-img: url(../images/down_icon.svg);
+  background-color: transparent;
+    color: #fff;
+    border-radius: 0;
+    border-color: #737373;
+}
+.reserved_sec form .form-select option{
+  background-color: #cb3a1a;
+}
+.reserved_sec form .rs-input-group.rs-input-group-inside{
+background-color: transparent;
+    border-radius: 0;
+    border-color: #737373;
+}
+.reserved_sec form .rs-picker-date>.rs-input-group.rs-input-group-inside .rs-input{
+  background-color: transparent;
+    color: #fff;
+}
+.reserved_sec form .rs-picker.rs-picker-focused, .reserved_sec form .rs-picker:not(.rs-picker-disabled):hover{
+  border-color: #737373!important;
+}
+.rs-input-group:focus-within, .rs-input-group:not(.rs-input-group-disabled).rs-input-group-focus, .rs-input-group:not(.rs-input-group-disabled):hover{
+  border-color: #737373!important;
+}
+.rs-icon{
+  fill: #fff;
+}
+.booking_content{
+  padding: 6rem 0;
+}
+.reserved_box span {
+    display: block;
+        color: #74787C;
+    line-height: 2rem;
+}
+.reserved_box h4{
+    font-size: 1.3rem;
+    font-weight: 500;
+    padding-bottom: .5rem;
+}
+.reserved_box span a {
+    color: #74787C;
+}
+.reserved_box{
+      margin-left: 2rem;
+    padding: 1.5rem 1.5rem 1.5rem 2.2rem;
+    border: 1px solid #c9c9c9;
+}
+.rs-stack{
+  gap: 0!important;
+}
+div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm){
+  background-color: #CB3A1A!important;
+}
+div:where(.swal2-container) button:where(.swal2-styled):where(.swal2-confirm):hover{
+  background-color: #000!important;
+}
+div:where(.swal2-container) h2:where(.swal2-title) span{
+  color: #CB3A1A!important;
+}
+.booking_details li{
+  line-height: 2rem;
+}
+.booking_details{
+  padding: .7rem 0;
+}
+/* booking_Sec end */
+
+/* responsive css start */
+@media only screen and (max-width: 991px){
+.rs-stack-item{
+  width: 167px;
+}
+.reserved_box h4 {
+    font-size: 1.2rem;
+}
+}
+@media only screen and (max-width: 768px){
+  .reserved_sec form .row{
+        flex-direction: column;
+  }
+  .rs-stack-item{
+  width:100%;
+}
+.rs-picker{
+  width:100%!important;
+}
+.reserved_sec form .form-select{
+  margin-bottom: 15px;
+}
+.reserved_sec form .rs-input-group.rs-input-group-inside{
+    margin-bottom: 15px;
+}
+.reserved_sec form .btn{
+      margin-top: 10px;
+}
+.reserved_box{
+  margin-left: 0px;
+}
+.booking_content {
+    padding: 3rem 0;
+}
+.reserved_sec{
+     padding: 3rem 0;
+}
+.book_form {
+    padding: 3rem 0 0;
+}
+}
+
+
+/* responsive css end */
