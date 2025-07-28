@@ -46,6 +46,9 @@ a:hover {
   clear: both;
 }
 /* menu content start */
+.chef_content{
+  padding-top: 5rem!important;
+}
 .chef_content h5{
         font-size: 1.8rem;
     text-transform: uppercase;

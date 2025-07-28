@@ -51,12 +51,13 @@ a:hover {
 ------------------------------*/
 
 .header {
-  position: relative;
-
+  position: fixed;
   width: 100%;
-
-  z-index: inherit;
-      background-color: #000;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-color: #000;
     padding: 1.5rem 0;
     color: #fff;
 }
@@ -501,6 +502,10 @@ a:hover {
 /**************header css****************/
 
 /************** banner start *************/
+.banner{
+  position: relative;
+      top: 78px;
+}
 .banner .slick-next{
   display: none!important;
 }
@@ -514,7 +519,7 @@ a:hover {
 }
 .banner .slider_content{
   position: absolute;
-  top: 25%;
+  top: 32%;
   left: 0;
   right: 0;
   text-align: center;
@@ -581,7 +586,7 @@ a:hover {
 
 /****************About sec start**************/
 .about_sec {
-  padding: 6rem 0;
+  padding: 10rem 0 6rem;
 }
 .right_content h6, .service_content h6, .menu_content h6{
   font-size: .9rem;
@@ -973,6 +978,9 @@ display: block;
 .footer_list li a{
   color: #fff;
 }
+.footer_list li a:hover{
+  color: #CB3A1A;
+}
 .footer_list li i{
   margin-right: 1rem;
 }
@@ -989,6 +997,9 @@ display: block;
 }
 .btm_list li a{
   color: #fff;
+}
+.btm_list li a:hover{
+  color: #CB3A1A;
 }
 /* footer end */
 

@@ -46,8 +46,8 @@ a:hover {
   clear: both;
 }
 /* blog css start*/
-.blog_details{
-    padding: 5rem 0;
+.blog_details {
+    padding: 10rem 0 5rem;
 }
 .blog_details h6{
 font-size: 1.3rem;

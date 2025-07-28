@@ -52,6 +52,8 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     padding: 7rem 0;
+        position: relative;
+    top: 6rem;
 }
 .menu_banner .breadcrumb{
     justify-content: center;
@@ -103,7 +105,7 @@ font-size: 4.2rem;
     margin-top: 1rem;
 }
 .all_menu{
-        padding: 2rem 0 6rem;
+        padding: 8rem 0 6rem;
 }
 /* menu content end */
 

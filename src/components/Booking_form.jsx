@@ -97,7 +97,7 @@ export default function Booking_form() {
         setBookingData(null);
         Swal.fire({
           title:
-            "<strong>Thank you for choosing <u>[Restaurant Name]</u>!</strong>",
+            "<strong>Thank you for choosing <u>Delish!</u>!</strong>",
           icon: "success",
           html: `
             <p>
